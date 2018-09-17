@@ -182,9 +182,9 @@ module.exports = function (User) {
 						function (next) {
 							getIPMatchedUsers(user, next);
 						},
-						function (next) {
-							getSpamData(user, next);
-						},
+						// function (next) {
+						// 	getSpamData(user, next);
+						// },
 					], function (err) {
 						next(err, user);
 					});
