@@ -93,6 +93,7 @@ app.cacheBuster = null;
 				window.location.reload();
 			}
 		});
+		socket.on('event:alert', app.alert);
 
 		require(['taskbar', 'helpers', 'forum/pagination'], function (taskbar, helpers, pagination) {
 			taskbar.init();
