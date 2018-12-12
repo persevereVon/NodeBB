@@ -204,7 +204,9 @@ module.exports = function (User) {
 							getIPMatchedUsers(user, next);
 						},
 						function (next) {
-							getSpamData(user, next);
+                            // For GFW
+                            // getSpamData(user, next);
+                            next();
 						},
 					], function (err) {
 						next(err, user);
