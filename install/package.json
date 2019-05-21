@@ -90,6 +90,7 @@
         "nodebb-plugin-spam-be-gone": "0.6.1",
         "nodebb-plugin-ns-embed": "^3.0.0",
         "nodebb-plugin-solr": "^5.1.0",
+        "nodebb-plugin-gif": "^0.1.0",
         "nodebb-rewards-essentials": "0.0.13",
         "nodebb-theme-lavender": "5.0.9",
         "nodebb-theme-persona": "9.1.16",
